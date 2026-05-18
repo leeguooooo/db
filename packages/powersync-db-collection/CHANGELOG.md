@@ -1,5 +1,11 @@
 # @tanstack/powersync-db-collection
 
+## 0.1.44
+
+### Patch Changes
+
+- Fixed bug where on-demand collections with the `id` column in their where clause would never be added to the PowerSync upload queue. ([#1470](https://github.com/TanStack/db/pull/1470))
+
 ## 0.1.43
 
 ### Patch Changes
