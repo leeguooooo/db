@@ -536,7 +536,7 @@ describe(`caseWhen`, () => {
       query.toArray.map((row) => stripVirtualPropsAndSymbols(row)),
     ).toEqual([
       { id: 1, postTitles: [`Alice post A`, `Alice post B`] },
-      { id: 2, postTitles: undefined },
+      { id: 2, postTitles: null },
       { id: 4, postTitles: [] },
     ])
   })
